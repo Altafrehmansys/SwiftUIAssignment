@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2773A1D32B4EE71700489FE4 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773A1D22B4EE71700489FE4 /* RatingView.swift */; };
 		27A48FB02B48417D006A3AF3 /* SwiftUIAssignmetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FAF2B48417D006A3AF3 /* SwiftUIAssignmetApp.swift */; };
 		27A48FB42B48417F006A3AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A48FB32B48417F006A3AF3 /* Assets.xcassets */; };
 		27A48FB72B48417F006A3AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A48FB62B48417F006A3AF3 /* Preview Assets.xcassets */; };
@@ -23,9 +24,17 @@
 		27A48FD52B496FDD006A3AF3 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FD42B496FDD006A3AF3 /* StringExt.swift */; };
 		27A48FD82B497042006A3AF3 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FD72B497042006A3AF3 /* EmailValidator.swift */; };
 		27A48FDA2B497205006A3AF3 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FD92B497205006A3AF3 /* EmailTextField.swift */; };
+		27A48FDC2B4BE2EC006A3AF3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FDB2B4BE2EC006A3AF3 /* ProfileView.swift */; };
+		27A48FDE2B4BEDA0006A3AF3 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FDD2B4BEDA0006A3AF3 /* CustomSegmentedControl.swift */; };
+		27A48FE22B4BF0C5006A3AF3 /* ListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FE12B4BF0C5006A3AF3 /* ListContent.swift */; };
+		27A48FFC2B4D2949006A3AF3 /* TableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FFB2B4D2949006A3AF3 /* TableViewRow.swift */; };
+		27A48FFE2B4D2E85006A3AF3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FFD2B4D2E85006A3AF3 /* HomeView.swift */; };
+		27A490002B4D33FD006A3AF3 /* DrawerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FFF2B4D33FD006A3AF3 /* DrawerHeader.swift */; };
+		27A490022B4D36DD006A3AF3 /* CongratulationPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A490012B4D36DD006A3AF3 /* CongratulationPopUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2773A1D22B4EE71700489FE4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		27A48FAC2B48417D006A3AF3 /* SwiftUIAssignmet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAssignmet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A48FAF2B48417D006A3AF3 /* SwiftUIAssignmetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAssignmetApp.swift; sourceTree = "<group>"; };
 		27A48FB32B48417F006A3AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +52,13 @@
 		27A48FD42B496FDD006A3AF3 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		27A48FD72B497042006A3AF3 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 		27A48FD92B497205006A3AF3 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		27A48FDB2B4BE2EC006A3AF3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		27A48FDD2B4BEDA0006A3AF3 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		27A48FE12B4BF0C5006A3AF3 /* ListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContent.swift; sourceTree = "<group>"; };
+		27A48FFB2B4D2949006A3AF3 /* TableViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRow.swift; sourceTree = "<group>"; };
+		27A48FFD2B4D2E85006A3AF3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		27A48FFF2B4D33FD006A3AF3 /* DrawerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerHeader.swift; sourceTree = "<group>"; };
+		27A490012B4D36DD006A3AF3 /* CongratulationPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationPopUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				27A48FAF2B48417D006A3AF3 /* SwiftUIAssignmetApp.swift */,
+				27A48FE02B4BF0B0006A3AF3 /* Content */,
 				27A48FD62B497019006A3AF3 /* Validator */,
 				27A48FC52B4845D7006A3AF3 /* Extensions */,
 				27A48FC02B4844AC006A3AF3 /* Components */,
@@ -99,6 +116,11 @@
 			children = (
 				27A48FBD2B4841AD006A3AF3 /* SignupView.swift */,
 				27A48FD22B492D7E006A3AF3 /* LoginView.swift */,
+				27A48FDB2B4BE2EC006A3AF3 /* ProfileView.swift */,
+				27A48FFD2B4D2E85006A3AF3 /* HomeView.swift */,
+				27A48FFF2B4D33FD006A3AF3 /* DrawerHeader.swift */,
+				27A490012B4D36DD006A3AF3 /* CongratulationPopUp.swift */,
+				2773A1D22B4EE71700489FE4 /* RatingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +136,8 @@
 				27A48FCC2B49265F006A3AF3 /* CheckBox.swift */,
 				27A48FCE2B492A29006A3AF3 /* PrimaryButton.swift */,
 				27A48FD02B492B4A006A3AF3 /* SecondaryButton.swift */,
+				27A48FDD2B4BEDA0006A3AF3 /* CustomSegmentedControl.swift */,
+				27A48FFB2B4D2949006A3AF3 /* TableViewRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -133,6 +157,14 @@
 				27A48FD72B497042006A3AF3 /* EmailValidator.swift */,
 			);
 			path = Validator;
+			sourceTree = "<group>";
+		};
+		27A48FE02B4BF0B0006A3AF3 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				27A48FE12B4BF0C5006A3AF3 /* ListContent.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A48FDE2B4BEDA0006A3AF3 /* CustomSegmentedControl.swift in Sources */,
 				27A48FD12B492B4A006A3AF3 /* SecondaryButton.swift in Sources */,
 				27A48FCF2B492A29006A3AF3 /* PrimaryButton.swift in Sources */,
 				27A48FDA2B497205006A3AF3 /* EmailTextField.swift in Sources */,
@@ -212,13 +245,20 @@
 				27A48FBE2B4841AD006A3AF3 /* SignupView.swift in Sources */,
 				27A48FC72B4845F2006A3AF3 /* ColorExt.swift in Sources */,
 				27A48FD82B497042006A3AF3 /* EmailValidator.swift in Sources */,
+				27A48FDC2B4BE2EC006A3AF3 /* ProfileView.swift in Sources */,
 				27A48FC42B48458E006A3AF3 /* NavigationBarButton.swift in Sources */,
 				27A48FC92B492434006A3AF3 /* ASTextField.swift in Sources */,
+				2773A1D32B4EE71700489FE4 /* RatingView.swift in Sources */,
 				27A48FCB2B49251B006A3AF3 /* PasswordField.swift in Sources */,
+				27A48FFC2B4D2949006A3AF3 /* TableViewRow.swift in Sources */,
 				27A48FD32B492D7E006A3AF3 /* LoginView.swift in Sources */,
 				27A48FB02B48417D006A3AF3 /* SwiftUIAssignmetApp.swift in Sources */,
 				27A48FD52B496FDD006A3AF3 /* StringExt.swift in Sources */,
+				27A490022B4D36DD006A3AF3 /* CongratulationPopUp.swift in Sources */,
 				27A48FC22B4844D5006A3AF3 /* NavigationBar.swift in Sources */,
+				27A48FE22B4BF0C5006A3AF3 /* ListContent.swift in Sources */,
+				27A48FFE2B4D2E85006A3AF3 /* HomeView.swift in Sources */,
+				27A490002B4D33FD006A3AF3 /* DrawerHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

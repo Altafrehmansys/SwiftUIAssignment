@@ -16,4 +16,5 @@ extension Color {
     static var AppColorGrayDark = Color("AppColorGrayDark")
     static var AppColorGrayLight = Color("AppColorGrayLight")
     static var AppColorGreen = Color("AppColorGreen")
+    static var AppColorRating = Color("AppColorRating")
 }

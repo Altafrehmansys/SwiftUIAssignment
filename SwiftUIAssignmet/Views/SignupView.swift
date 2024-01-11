@@ -11,10 +11,10 @@ struct SignupView: View {
     @State private var name = ""
     @State private var email = ""
     @State private var password = ""
-    @State private var isShowLoginView: Bool = false
+    @State private var path = NavigationPath()
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             VStack (spacing: 32){
                 NavigationBar(
                     title: "Sign Up",
@@ -22,7 +22,7 @@ struct SignupView: View {
                         
                     }),
                     rightBarButton: NavigationBarButton(buttonTitle: "Login", buttonImage: "", buttonAction: {
-                        isShowLoginView = true
+                            path.append("go_to_login")
                     })
                 )
                 
@@ -46,10 +46,17 @@ struct SignupView: View {
                 Spacer()
             }
             .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
-            .navigationDestination(isPresented: $isShowLoginView) {
-                LoginView()
+            .navigationDestination(for: String.self) { value in
+                if value == "go_to_login" {
+                    LoginView(path: $path)
+                } else if value == "go_to_profile" {
+                    ProfileView(path: $path)
+                } else if value == "go_to_congratulations" {
+                    CongratulationPopUp(path: $path)
+                } else if value == "go_to_rating" {
+                    RatingView(path: $path)
+                }
             }
-            
         }
     }
 }

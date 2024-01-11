@@ -11,6 +11,7 @@ struct NavigationBar: View {
     @State var title: String? = "Sign Up"
     var leftBarButton: NavigationBarButton?
     var rightBarButton: NavigationBarButton?
+    var titleColor: Color?
     
     var body: some View {
         HStack {
@@ -20,6 +21,7 @@ struct NavigationBar: View {
             Spacer()
             if let title = title {
                 Text(title)
+                    .foregroundStyle(titleColor != nil ? titleColor!: .black)
                     .font(.system(size: 30, weight: .medium))
             }
             Spacer()

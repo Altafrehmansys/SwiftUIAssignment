@@ -18,7 +18,7 @@ struct SecondaryButton: View {
     
     var body: some View {
         Button(title, action: {
-            print("signup is pressed")
+            self.buttonAction()
         })
         .tint(Color.appColorGreen)
         .font(.system(size: 16, weight: .bold))

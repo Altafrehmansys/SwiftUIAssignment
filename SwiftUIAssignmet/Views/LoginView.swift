@@ -11,7 +11,8 @@ struct LoginView: View {
     
     @State private var email = ""
     @State private var password = ""
-
+    @Binding var path: NavigationPath
+    
     var body: some View {
         NavigationView {
             VStack (spacing: 32){
@@ -24,7 +25,7 @@ struct LoginView: View {
                 Spacer()
                 VStack (spacing:16){
                     PrimaryButton(title: "Log In", buttonAction: {
-                        
+                        path.append("go_to_profile")
                     })
                     SecondaryButton(title: "Forgot your password?", buttonAction: {
                         
@@ -34,9 +35,11 @@ struct LoginView: View {
             }
             .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
         }
+        .navigationBarHidden(true)
     }
 }
 
 #Preview {
-    LoginView()
+    LoginView(path: .constant(.init()))
 }
+

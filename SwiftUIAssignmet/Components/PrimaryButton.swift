@@ -19,7 +19,7 @@ struct PrimaryButton: View {
     var body: some View {
         HStack {
             Button(title, action: {
-                print("signup is pressed")
+                self.buttonAction()
             })
             .tint(.white)
             .font(.system(size: 16, weight: .bold))

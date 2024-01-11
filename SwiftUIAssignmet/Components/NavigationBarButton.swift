@@ -10,6 +10,7 @@ import SwiftUI
 struct NavigationBarButton: View {
     var buttonTitle: String?
     var buttonImage: String?
+    var handlerColor: Color?
     var buttonAction: (() -> Void)?
     
     var body: some View {
@@ -18,9 +19,9 @@ struct NavigationBarButton: View {
         }) {
             HStack {
                 Image(systemName: buttonImage ?? "")
-                    .tint(Color.AppColorGrayDark)
+                    .tint(handlerColor != nil ? handlerColor:Color.AppColorGrayDark)
                 Text(buttonTitle ?? "")
-                    .tint(Color.AppColorGreen)
+                    .tint(handlerColor != nil ? handlerColor:Color.AppColorGreen)
             }
         }
     }
