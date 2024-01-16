@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2773A1D32B4EE71700489FE4 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773A1D22B4EE71700489FE4 /* RatingView.swift */; };
+		2773A2032B56695200489FE4 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773A1FC2B56695200489FE4 /* StudentModel.swift */; };
+		2773A2042B56695200489FE4 /* EditStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773A1FD2B56695200489FE4 /* EditStudentView.swift */; };
+		2773A2052B56695200489FE4 /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773A1FE2B56695200489FE4 /* StudentView.swift */; };
+		2773A2062B56695200489FE4 /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773A1FF2B56695200489FE4 /* StudentDetailView.swift */; };
+		2773A2072B56695200489FE4 /* AddStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773A2002B56695200489FE4 /* AddStudentView.swift */; };
 		27A48FB02B48417D006A3AF3 /* SwiftUIAssignmetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48FAF2B48417D006A3AF3 /* SwiftUIAssignmetApp.swift */; };
 		27A48FB42B48417F006A3AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A48FB32B48417F006A3AF3 /* Assets.xcassets */; };
 		27A48FB72B48417F006A3AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A48FB62B48417F006A3AF3 /* Preview Assets.xcassets */; };
@@ -35,6 +40,11 @@
 
 /* Begin PBXFileReference section */
 		2773A1D22B4EE71700489FE4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		2773A1FC2B56695200489FE4 /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		2773A1FD2B56695200489FE4 /* EditStudentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditStudentView.swift; sourceTree = "<group>"; };
+		2773A1FE2B56695200489FE4 /* StudentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		2773A1FF2B56695200489FE4 /* StudentDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
+		2773A2002B56695200489FE4 /* AddStudentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentView.swift; sourceTree = "<group>"; };
 		27A48FAC2B48417D006A3AF3 /* SwiftUIAssignmet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAssignmet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A48FAF2B48417D006A3AF3 /* SwiftUIAssignmetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAssignmetApp.swift; sourceTree = "<group>"; };
 		27A48FB32B48417F006A3AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2773A1FA2B56677500489FE4 /* StudentList */ = {
+			isa = PBXGroup;
+			children = (
+				2773A2002B56695200489FE4 /* AddStudentView.swift */,
+				2773A1FB2B56695200489FE4 /* Content */,
+				2773A1FD2B56695200489FE4 /* EditStudentView.swift */,
+				2773A1FF2B56695200489FE4 /* StudentDetailView.swift */,
+				2773A1FE2B56695200489FE4 /* StudentView.swift */,
+			);
+			path = StudentList;
+			sourceTree = "<group>";
+		};
+		2773A1FB2B56695200489FE4 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2773A1FC2B56695200489FE4 /* StudentModel.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		27A48FA32B48417D006A3AF3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +127,7 @@
 				27A48FC52B4845D7006A3AF3 /* Extensions */,
 				27A48FC02B4844AC006A3AF3 /* Components */,
 				27A48FBF2B48449D006A3AF3 /* Views */,
+				2773A1FA2B56677500489FE4 /* StudentList */,
 				27A48FB32B48417F006A3AF3 /* Assets.xcassets */,
 				27A48FB52B48417F006A3AF3 /* Preview Content */,
 			);
@@ -237,18 +268,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2773A2042B56695200489FE4 /* EditStudentView.swift in Sources */,
 				27A48FDE2B4BEDA0006A3AF3 /* CustomSegmentedControl.swift in Sources */,
 				27A48FD12B492B4A006A3AF3 /* SecondaryButton.swift in Sources */,
+				2773A2052B56695200489FE4 /* StudentView.swift in Sources */,
 				27A48FCF2B492A29006A3AF3 /* PrimaryButton.swift in Sources */,
 				27A48FDA2B497205006A3AF3 /* EmailTextField.swift in Sources */,
 				27A48FCD2B49265F006A3AF3 /* CheckBox.swift in Sources */,
 				27A48FBE2B4841AD006A3AF3 /* SignupView.swift in Sources */,
 				27A48FC72B4845F2006A3AF3 /* ColorExt.swift in Sources */,
+				2773A2062B56695200489FE4 /* StudentDetailView.swift in Sources */,
+				2773A2032B56695200489FE4 /* StudentModel.swift in Sources */,
 				27A48FD82B497042006A3AF3 /* EmailValidator.swift in Sources */,
 				27A48FDC2B4BE2EC006A3AF3 /* ProfileView.swift in Sources */,
 				27A48FC42B48458E006A3AF3 /* NavigationBarButton.swift in Sources */,
 				27A48FC92B492434006A3AF3 /* ASTextField.swift in Sources */,
 				2773A1D32B4EE71700489FE4 /* RatingView.swift in Sources */,
+				2773A2072B56695200489FE4 /* AddStudentView.swift in Sources */,
 				27A48FCB2B49251B006A3AF3 /* PasswordField.swift in Sources */,
 				27A48FFC2B4D2949006A3AF3 /* TableViewRow.swift in Sources */,
 				27A48FD32B492D7E006A3AF3 /* LoginView.swift in Sources */,
